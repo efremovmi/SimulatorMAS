@@ -1,3 +1,4 @@
+```bash
 ├── cmd                                
 │   └── main.go                  // The entry point to the application
 ├── config
@@ -27,3 +28,4 @@
         ├── igreens.go           // The interface of the agent is green
         ├── ikernel.go           // The interface of the rodent agent
         └── irodent.go           // The interface of the core agent
+```
