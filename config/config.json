@@ -1,0 +1,25 @@
+{
+
+  "greens": {
+    "count": 10,
+    "interval_add_life_time": 5,
+    "interval_lunch_time": 2,
+    "max_life_time": 10
+  },
+  "rodent": {
+    "count": 2,
+    "interval_add_life_time": 5,
+    "interval_lunch_time": 5,
+    "max_life_time": 30,
+    "number_of_corpses": 1,
+    "max_hungry_to_die": 2
+  },
+  "broker": {
+    "logging": false,
+    "retry_count": 5,
+    "broker_address": "amqp://guest:guest@localhost:5672/",
+    "queue_corpses_name": "corpses",
+    "queue_greens_req_to_born_name": "greens_req_to_born",
+    "queue_rodent_req_to_born_name": "rodent_req_to_born"
+  }
+}
